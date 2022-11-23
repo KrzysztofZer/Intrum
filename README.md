@@ -36,3 +36,4 @@ Have fun with editing Examples: by just editing CSV file or feature file ;)
 - JUnit as test runner
 - RestAssured as backend testing tool
 - Git as Version Control System
+- Maven as tool for dependency injection
