@@ -14,7 +14,6 @@ public class CsvToFeature {
                 return;
             }
 
-            //Construct the new file that will later be renamed to the original filename.
             File tempFile = new File(inFile.getAbsolutePath() + ".tmp");
 
             BufferedReader br = new BufferedReader(new FileReader(featureFilePath));
@@ -22,8 +21,6 @@ public class CsvToFeature {
 
             String line = null;
 
-            //Read from the original file and write to the new
-            //unless content matches data to be removed.
             boolean deleteIfPipe = false;
             boolean changeNextExamples = false;
             String csvPath;
