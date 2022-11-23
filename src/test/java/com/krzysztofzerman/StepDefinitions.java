@@ -2,7 +2,6 @@ package com.krzysztofzerman;
 
 import com.google.gson.Gson;
 import com.krzysztofzerman.jsonbodies.Person;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
