@@ -18,7 +18,7 @@ What script do is:
 4. if there are no pipe in next line but data should be provided it will be
 4. if file is ending with line ```Examples:``` data will be also added
 
-Thanks to declaration ```@csvFile``` inside feature script is able to input such data in few places and have control over it
+Thanks to declaration ```@csvFile``` inside feature, script is able to input such data in few places and have control over it.
 
 ## How to run it?
 First run adding csv to features with:
